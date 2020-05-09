@@ -2,15 +2,15 @@
 Software delivery begins from design, writing code to its distribution, deployment and its eventual usage.
 
 ### Problems at Enterprise scale
-On an Enterprise scale, a software product involves millions of line of code. With majority of them being added from Opensource. Does all these Free software really comes with zero cost? May be no money, but there is cost of security vulnerabilities, data loss, privay voilations, license infringments, financial penalities etc..
+On an Enterprise scale, a software product involves millions of line of code. With majority of them being added from Opensource. Does all these Free software really comes with zero cost? May be no money, but there is cost of  vulnerabilities, data security, privay voilations, license infringments, financial penalities etc..
 
 ### Data for Managing supply chain
 At each stage of this chain there should be sufficient data available for developing confidence and trust in final delivery. This is achieved by code quality analysis, vulnerability checks, attack vector recognition and reducing exploit surface area etc. Also We should have observaibility built around this using different tools.
 
 ### Strong governace with Grafeas
-Grafeas is an Open, artifact metadata standard. Audit and govern software suppoly chain. Its main purpose is to maintain Knowledge base for onpremises and cloud clusters.
+Grafeas is an open source initiative to define a uniform way for auditing and governing the modern software supply chain. Its main purpose is to maintain Knowledge base for onpremises and cloud clusters. It provides a centralized mechanism to enforce policies across software delivery chain. Grafeas provides API's to store, query, and retrieve comprehensive metadata on software components of all kinds.
 
-- Universal metadata store
+- Open standard for artifact metadata store
 - Notes: high level descripton of types of metdata
   - e.g. CVE as vulnerability note
 - Occurrences: instance of note in an artifact
