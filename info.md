@@ -1,6 +1,9 @@
-# Software supply chain
-Software supply chain management includes different stages of software beginning from design, writing code to customer delivery.
-observaibility should be built around the process. 
+# Managing Software supply chain
+On an Enterprise scale, a software product involves millions of line of code. With majority of them being added from Opensource. Does all these Free software really comes with zero cost? May be no money, but there is cost of security vulnerabilities, license infringments. Without gating or timely checks these may cause Data/privacy voilations and financial penalities.
+
+Software delivery begins from design, writing code to its distribution, deployment and its eventual usage. At each stage there should be sufficient data available for developing confidence and trust in final delivery. This is achieved have methodologies like code quality analysis, vulnerability checks, attack vector recognition and reducing exploit surface area.
+
+Software supply chain management should be a rigours process which should have observaibility should be built around it. 
 How do we add trust
 Have centralized component and avoid blockage at any step
 
