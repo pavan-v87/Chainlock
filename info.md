@@ -8,11 +8,23 @@ On an Enterprise scale, a software product involves millions of line of code. Wi
 At each stage of supply chain there should be sufficient data available for developing confidence and trust in final delivery. This is achieved by code quality analysis, vulnerability checks, reducing exploit surface area etc. Also We should have observaibility built around this using different tools.
 
 ### Strong governace with Grafeas
-Grafeas is an open source initiative to define a uniform way for auditing and governing the modern software supply chain. Its main purpose is to maintain Knowledge base for onpremises and cloud clusters. It provides a centralized mechanism to enforce policies across software delivery chain. Grafeas provides API's to store, query, and retrieve comprehensive metadata on software components of all kinds.
+Grafeas is an open source initiative to define a uniform way for auditing and governing the modern software supply chain. Its main purpose is to maintain central, structured knowledge-base of the critical metadata. It provides a centralized mechanism to enforce policies across software delivery chain.
+Following are the features and design points:
+- Metadata is stored with components unique id
+- Open and centralized standard for metadata
+- Easy to add new metadata producers and consumers
+- Structured metadata schemas available for common metadata types (e.g., vulnerability, build, attestation and package index metadata)
+- Strong control access for multiple metadata producers and consumers
+- API's to store, query, and retrieve comprehensive metadata on software components of all kinds.
 
-- Open standard for artifact metadata store
+### Defragmenting and centralizing metadata 
+At each stage of the software supply chain (code, build, test, deploy and operate), different tools generate metadata about various software components. Examples include the identity of the developer, when the code was checked in and built, what vulnerabilities were detected, what tests were passed or failed, and so on. This metadata is then captured by Grafeas.
+Below image demonstrates the use case:
+
+
 - Notes: high level descripton of types of metdata
   - e.g. CVE as vulnerability note
+  
 - Occurrences: instance of note in an artifact
   - e.g. CVE presence in an image
 - Integrate third party providers/consumers
