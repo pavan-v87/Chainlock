@@ -1,16 +1,15 @@
 # Software supply chain
-Software delivery begins from design, writing code to its distribution, deployment and its eventual usage. Like the traditional supply chain, software supply chain is a system of organization and network connecting people, process, information and resources involved in delivering product to clients or customers.
+Like the traditional supply chain, software supply chain is a system of organization and network connecting people, process, tools, information and resources involved in delivering product to clients or customers.
 
 ### Problems at Enterprise scale
-On an Enterprise scale, a software product involves millions of line of code. With majority of them being borrowed from Opensource. Does all these Free software really comes with zero cost? May be no money, but there is cost of  vulnerabilities, insecure data, privacy voilations, license infringments etc..
+On an Enterprise scale, a software product involves millions of line of code, with majority of them being borrowed from Opensource. Does all these free software really comes with zero cost? May be no money, but there is cost of vulnerabilities, insecure data, privacy voilations, license infringments etc..
 
 ### Managing supply chain
-At each stage of supply chain there should be sufficient data available for developing confidence and trust in final delivery. This is achieved by code quality analysis, vulnerability checks, reducing exploit surface area etc. Also We should have observaibility built around this using different tools.
+At each stage of supply chain there should be sufficient data available for developing confidence and trust in final delivery. This is achieved by code quality analysis, vulnerability checks, reducing exploit surface area etc. Also observaibility should be built around this using different tools.
 
 ### Strong governace with Grafeas
-Grafeas is an open source initiative to define a uniform way for auditing and governing the modern software supply chain. Its main purpose is to maintain central, structured knowledge-base of the critical metadata. It provides a centralized mechanism to enforce policies across software delivery chain.
+Grafeas is an open source initiative to define a uniform way for auditing and governing the modern software supply chain. It's main purpose is to maintain central, structured knowledge-base of the critical metadata. It provides a centralized mechanism to enforce policies across software delivery chain.
 Following are the features and design points:
-- Metadata is stored with components unique id
 - Open and centralized standard for metadata
 - Easy to add new metadata producers and consumers
 - Structured metadata schemas available for common metadata types (e.g., vulnerability, build, attestation and package index metadata)
